@@ -113,3 +113,66 @@ Thumbs.db
 /analyze
 .analyze
 /bundle-stats
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebase-config.json
+ui-debug.log
+
+# Build output
+.next
+out
+dist
+build
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env.*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local Development
+*.local
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env*.local
+
+# Next.js SSG
+/out/
+.next

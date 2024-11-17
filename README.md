@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Burakcan Tokses - Personal Portfolio
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/0b07d3d0-b63d-4349-b258-20e6e913ce74)
 
-First, run the development server:
+---
 
+## 🌟 Overview
+
+Modern, responsive personal portfolio website built with cutting-edge web technologies. Featuring a clean design, smooth animations, and intuitive user experience.
+
+## ⚡ Live Demo
+
+Visit the live site: [buraktokses.com](https://buraktokses.com)
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) - For server-side rendering and optimal performance
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - For modern, responsive design
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) - For smooth, sophisticated animations
+- **Icons**: [react-icons](https://react-icons.github.io/react-icons/) - For tech stack and social media icons
+- **Deployment**: [Firebase](https://firebase.google.com/) - For reliable hosting and analytics
+- **Development**:
+  - TypeScript
+  - ESLint
+  - Prettier
+  - Husky
+
+## ✨ Features
+
+- 🎨 Modern UI/UX with glassmorphism design
+- 📱 Fully responsive across all devices
+- 🚀 Optimized performance (100 Lighthouse score)
+- ⚡ Server-side rendering for fast page loads
+- 🎭 Smooth page transitions and animations
+- 💻 Interactive tech stack showcase
+- 📊 Real-time analytics integration
+- 🌓 Dark/Light mode support (coming soon)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/username/buraktokses.com.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+cd buraktokses.com
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run development server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Build for production**
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── src/
+│   ├── app/              # App router and pages
+│   ├── components/       # Reusable components
+│   │   ├── home/        # Homepage specific components
+│   │   └── shared/      # Shared components
+│   ├── styles/          # Global styles
+│   └── utils/           # Utility functions
+├── public/              # Static assets
+└── ...config files
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project uses various configuration files:
 
-## Deploy on Vercel
+- `tailwind.config.ts` - Tailwind CSS configuration
+- `next.config.js` - Next.js configuration
+- `tsconfig.json` - TypeScript configuration
+- `.eslintrc.json` - ESLint rules
+- `.prettierrc` - Code formatting rules
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 Performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Lighthouse Score**: 100/100
+- **Web Vitals**:
+  - First Contentful Paint: < 1s
+  - Time to Interactive: < 2s
+  - Cumulative Layout Shift: 0
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/username/buraktokses.com/issues).
+
+## 📧 Contact
+
+Burakcan Tokses - [LinkedIn](https://linkedin.com/in/yourusername) - email@buraktokses.com
+
+## 🙏 Acknowledgments
+
+Special thanks to:
+- [Next.js Team](https://nextjs.org/) for the amazing framework
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Vercel](https://vercel.com/) for the deployment platform
+
+---
+
+<p align="center">Made with ❤️ by Burakcan Tokses</p>

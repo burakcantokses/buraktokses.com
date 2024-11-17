@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import { DiJava } from "react-icons/di";
 import {
   SiReact,
@@ -11,7 +12,12 @@ import {
   SiJavascript,
 } from "react-icons/si";
 
-const TechBadge = ({ text, icon: Icon }: { text: string; icon: any }) => (
+interface TechBadgeProps {
+  text: string;
+  icon: IconType;
+}
+
+const TechBadge = ({ text, icon: Icon }: TechBadgeProps) => (
   <div className="group relative">
     <div
       className="flex items-center gap-2 px-4 py-2 rounded-xl

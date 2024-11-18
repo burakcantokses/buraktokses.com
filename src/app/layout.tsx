@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Burak Tokses | Kişisel Website",
+  title: "Burakcan Tokses | Kişisel Website",
   description: "Software Developer, UI/UX Designer, and Web Developer",
   keywords: [
     "Frontend Developer",
@@ -12,6 +12,26 @@ export const metadata: Metadata = {
     "Software Developer",
     "React",
     "Next.js",
+    "Burakcan Tokses",
+    "Burakcan",
+    "Tokses",
+    "Burakcan Tok",
+    "Burakcan T",
+    "Tokses Burakcan",
+    "Tokses Burak",
+    "Tokses B",
+    "Burakcan T.",
+    "Tokses B.",
+    "Tokses B",
+    "Burak Tokses",
+    "Tokses",
+    "Burak",
+    "Burak Tok",
+    "Burak T",
+    "Tokses Burak",
+    "Tokses Burakcan",
+    "Tokses B.",
+    "Burakcan",
   ],
 };
 

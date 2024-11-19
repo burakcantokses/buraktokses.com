@@ -40,15 +40,15 @@ const TechBadge = ({ text, icon: Icon }: TechBadgeProps) => (
 
 export const TechStack = () => {
   const techStack = [
-    { name: "React", icon: SiReact },
-    { name: "Next.js", icon: SiNextdotjs },
+    { name: "Java", icon: DiJava },
+    { name: ".NET", icon: SiDotnet },
+    { name: "Node.js", icon: SiNodedotjs },
+    { name: "SQL", icon: SiSqlite },
+    { name: "MongoDB", icon: SiMongodb },
     { name: "TypeScript", icon: SiTypescript },
     { name: "JavaScript", icon: SiJavascript },
-    { name: "Node.js", icon: SiNodedotjs },
-    { name: ".NET", icon: SiDotnet },
-    { name: "Java", icon: DiJava },
-    { name: "MongoDB", icon: SiMongodb },
-    { name: "SQL", icon: SiSqlite },
+    { name: "React", icon: SiReact },
+    { name: "Next.js", icon: SiNextdotjs },
     { name: "Git", icon: SiGit },
   ];
 

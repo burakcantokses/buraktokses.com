@@ -13,7 +13,7 @@ export const HeroSection = () => {
 
       <div className="max-w-3xl mx-auto mb-8">
         <p className="text-xl md:text-2xl text-gray-600 mb-3">
-          Yazılım Geliştirici
+          Backend Yazılım Geliştirici
         </p>
         <p className="text-base md:text-lg text-gray-500 mb-6">
           Modern web teknolojileri ile yenilikçi çözümler geliştiren, kullanıcı

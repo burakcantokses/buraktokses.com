@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/ThemeProvider";
+import ParticleBackground from "@/components/particle/ParticleBackground";
 
 export const metadata: Metadata = {
   title: "Burakcan Tokses | Kişisel Website",
-  description: "Software Developer, UI/UX Designer, and Web Developer",
+  description: "Backend Developer, UI/UX Designer, and Web Developer",
   keywords: [
+    "Backend Developer",
     "Frontend Developer",
     "UI/UX Designer",
     "Web Developer",
@@ -52,7 +54,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            <ParticleBackground />
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

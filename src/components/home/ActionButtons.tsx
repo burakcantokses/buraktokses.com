@@ -1,7 +1,12 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/button/Button";
 import { FileText, FolderOpenDot, Mail } from "lucide-react";
 
 export const ActionButtons = () => {
+  const router = useRouter();
+
   const handleDownloadCV = () => {
     const cvPath = "/resume.pdf";
     const link = document.createElement("a");
@@ -24,6 +29,7 @@ export const ActionButtons = () => {
         <span className="font-medium">Özgeçmiş</span>
       </Button>
       <Button
+        onClick={() => router.push("/projects")}
         className="bg-gradient-to-r from-violet-600 to-violet-800 hover:from-violet-700 hover:to-violet-900
                    inline-flex items-center gap-2 py-2.5 px-6 text-white shadow-xl
                    transform transition-all duration-300 hover:scale-105"
@@ -32,6 +38,7 @@ export const ActionButtons = () => {
         <span className="font-medium">Projelerim</span>
       </Button>
       <Button
+        onClick={() => router.push("/contact")}
         className="bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900
                    inline-flex items-center gap-2 py-2.5 px-6 text-white shadow-xl
                    transform transition-all duration-300 hover:scale-105"

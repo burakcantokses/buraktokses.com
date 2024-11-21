@@ -21,7 +21,6 @@ export default function Home() {
 
   return (
     <>
-      <ParticleBackground />
       <main className="relative min-h-screen flex flex-col items-center justify-center p-6 md:p-24">
         <div className="text-center z-10">
           <HeroSection />

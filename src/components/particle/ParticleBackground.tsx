@@ -32,7 +32,7 @@ const ParticleBackground = () => {
     ];
 
     let particles: Particle[] = [];
-    let mouse = { x: 0, y: 0 };
+    const mouse = { x: 0, y: 0 };
 
     const handleMouseMove = (event: MouseEvent) => {
       mouse.x = event.x;
@@ -89,7 +89,7 @@ const ParticleBackground = () => {
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      particles.forEach((particle, index) => {
+      particles.forEach((particle) => {
         const dx = mouse.x - particle.x;
         const dy = mouse.y - particle.y;
         const distance = Math.sqrt(dx * dx + dy * dy);

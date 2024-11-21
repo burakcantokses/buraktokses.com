@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import ParticleBackground from "@/components/particle/ParticleBackground";
 import { HeroSection } from "@/components/home/HeroSection";
 import { TechStack } from "@/components/home/TechStack";
 import { ActionButtons } from "@/components/home/ActionButtons";

@@ -1,5 +1,4 @@
 import { Github, ImageIcon } from "lucide-react";
-import Image from "next/image";
 import {
   SiNodedotjs,
   SiExpress,
@@ -14,7 +13,6 @@ import {
   SiDjango,
   SiDocker,
   SiKubernetes,
-  SiGithub,
   SiNginx,
   SiSpring,
   SiMysql,

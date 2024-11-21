@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Github,
-  Image as ImageIcon,
-  X,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 

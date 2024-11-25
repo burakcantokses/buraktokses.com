@@ -5,7 +5,7 @@ export interface Project {
   longDescription?: string;
   tech: string[];
   features: string[];
-  githubUrl: string;
+  githubUrl?: string;
   liveUrl?: string;
   images?: {
     thumbnail: string;

@@ -23,6 +23,34 @@ export const projects: Project[] = [
     category: "fullstack",
   },
   {
+    id: "kiwi-tracker",
+    title: "Kiwi Valorant Stats",
+    description:
+      "Valorant oyuncuları için geliştirilmiş, detaylı istatistik ve maç analizi sunan web uygulaması. Modern web teknolojileri kullanılarak geliştirilen bu proje, oyuncuların performansını takip etmelerini ve geliştirmelerini sağlar.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Framer Motion",
+    ],
+    features: [
+      "Detaylı maç geçmişi ve istatistikleri",
+      "Harita ve mod bazlı performans analizi",
+      "Kullanıcı kimlik doğrulama sistemi",
+      "Responsive ve modern kullanıcı arayüzü",
+      "Gerçek zamanlı veri takibi",
+      "Gelişmiş filtreleme özellikleri",
+    ],
+    images: {
+      thumbnail: "/projects/kiwi/thumbnail.png",
+    },
+    startDate: "2024-01-01",
+    status: "in-progress",
+    category: "fullstack",
+  },
+  {
     id: "traffic-simulation-javafx",
     title: "Traffic Simulation",
     description:
@@ -44,7 +72,14 @@ export const projects: Project[] = [
     title: "buraktokses.com",
     description:
       "Next.js ve Tailwind CSS kullanılarak geliştirilen modern ve responsive kişisel web sitesi. Projelerimi, yeteneklerimi ve deneyimlerimi sergilemek için tasarlanmış portfolio sitesi. ",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React",
+      "Framer Motion",
+      "Firebase",
+    ],
     features: [
       "Modern ve minimalist tasarım",
       "Responsive ve mobile-first yaklaşım",
@@ -56,5 +91,44 @@ export const projects: Project[] = [
     startDate: "2024-11-11",
     status: "in-progress",
     category: "frontend",
+  },
+  {
+    id: "quick-dev",
+    title: "Quick Dev",
+    description:
+      "Yazılım geliştiricilerin günlük iş akışını otomatize eden, çoklu geliştirme araçlarını tek bir arayüzden yönetmelerini sağlayan masaüstü uygulaması. Git işlemleri, IDE başlatma, veritabanı yönetimi, Docker kontrolleri gibi rutin görevleri tek tıkla gerçekleştirerek geliştirme süreçlerini hızlandırır ve verimliliği artırır.",
+    tech: ["C#", ".NET"],
+    features: [
+      "Özelleştirilebilir workflow otomasyonu",
+      "Çoklu araç entegrasyonu (Git, IDE, Docker vb.)",
+      "Tek tıkla çalıştırma ve durdurma işlemleri",
+      "Zamanlanmış görev yönetimi",
+      "Performans izleme ve raporlama",
+    ],
+    images: {
+      thumbnail: "/projects/quick-dev/thumbnail.jpg",
+      screenshots: ["/projects/quick-dev/screenshot-1.jpg"],
+    },
+    startDate: "2024-11-1",
+    status: "completed",
+    category: "backend",
+  },
+  {
+    id: "car-parking",
+    title: "Car Parking Management System",
+    description:
+      "Java tabanlı araç park yönetim sistemi. OOP prensipleri kullanılarak geliştirilmiş bu sistem, araçların giriş-çıkış kayıtlarını, park sürelerini ve ücretlendirmelerini takip eder. Sistem, araç plakası ve yolcu kapasitesi gibi detaylı bilgileri saklayarak, park yeri kapasitesi kontrolü ve biletleme işlemlerini otomatize eder.",
+    tech: ["Java"],
+    features: [
+      "Araç giriş-çıkış saatlerinin detaylı takibi",
+      "Otomatik kapasite kontrolü ve uyarı sistemi",
+      "Plaka bazlı araç takibi",
+      "Bilet oluşturma ve fiyatlandırma",
+      "Park süresine göre otomatik ücretlendirme",
+    ],
+    githubUrl: "https://github.com/burakcantokses/Car-Parking-Application",
+    startDate: "2024-01-15",
+    status: "completed",
+    category: "backend",
   },
 ];

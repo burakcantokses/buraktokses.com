@@ -8,8 +8,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { projects } from "@/data/project";
 import { ProjectsGrid } from "./ProjectsGrid";
+import { Project } from "@/types/project";
+import projectsData from "@/data/projects.json";
 
 // Type definition for project categories
 type CategoryType = "all" | "backend" | "fullstack" | "devops";
@@ -62,6 +63,7 @@ const CategoryButton: React.FC<CategoryButtonProps> = ({
 export const ProjectSection = () => {
   // State for tracking active category filter
   const [activeCategory, setActiveCategory] = useState<CategoryType>("all");
+  const projects = projectsData.projects as Project[];
 
   /**
    * Calculate project counts for each category

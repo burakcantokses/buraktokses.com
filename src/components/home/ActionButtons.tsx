@@ -8,13 +8,27 @@ export const ActionButtons = () => {
   const router = useRouter();
 
   const handleDownloadCV = () => {
-    const cvPath = "/resume.pdf";
-    const link = document.createElement("a");
-    link.href = cvPath;
-    link.download = "BurakcanTokses-Ozgecmis.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const cvPath = "/pdfs/Burakcan_TOKSES_CV_2025.pdf";
+
+    fetch(cvPath)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("PDF bulunamadı");
+        }
+        return response.blob();
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "Burakcan_TOKSES_CV_2025.pdf";
+
+        document.body.appendChild(link);
+        link.click();
+
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(url);
+      });
   };
 
   return (
